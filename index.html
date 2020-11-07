@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="content">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+      <div class="form">
+        <a class="trial" href="#"><p><span>Try it free 7 days</span> then $20/mo. thereafter</p></a>
+        <form id="form">
+          <div class="form-content">
+            <input class="" type="text" name="firstName" id="firstName" placeholder="First Name">
+          <img
+              style="visibility: hidden"
+              id="errorFN"
+              src="./images/icon-error.svg"
+              alt=""
+            />
+          <label id="firstNameLabel"></label>
+          </div>
+          <div class="form-content">
+            <input class="" type="text" name="lastName" id="lastName" placeholder="Last Name">
+          <img
+              style="visibility: hidden"
+              id="errorLN"
+              src="./images/icon-error.svg"
+              alt=""
+            />
+          <label id="LastNameLabel"></label>
+          </div>
+          <div class="form-content">
+            <input class="margin" type="text" name="email" id="email" placeholder="Email Address">
+          <img
+              style="visibility: hidden"
+              id="errorEmail"
+              src="./images/icon-error.svg"
+              alt=""
+            />
+          <label id="emailLabel"></label>
+          </div>
+          <div class="form-content">
+            <input class="" type="password" name="password" id="password" placeholder="Password">
+          <img
+              style="visibility: hidden"
+              id="errorPass"
+              src="./images/icon-error.svg"
+              alt=""
+            />
+          <label id="passwordLabel"></label>
+          </div>
+          <button id="btn" type="submit">Claim your free trial</button>
+          <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
